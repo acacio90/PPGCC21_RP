@@ -16,6 +16,9 @@ venv/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
+# Notebooks excluídos do repositório
+6 - figuras.ipynb
+
 # Dados processados (gerados na execução)
 data/processed/
 
