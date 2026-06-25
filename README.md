@@ -12,7 +12,7 @@ PPGCC21_RP/
 ├── 4 - modelagem_e_validacao.ipynb         # Nested CV com DT, RF, SVM, KNN e MLP
 ├── 5 - analise_estatistica.ipynb           # Teste de Friedman e post-hoc de Nemenyi
 ├── data/
-│   ├── dimacs/                             # Instâncias DIMACS (.col) — não versionadas
+│   ├── dimacs/                             # Instâncias DIMACS (.col)
 │   └── processed/                          # dataset.csv e results.pkl — não versionados
 ├── figures/                                # Figuras geradas — não versionadas
 ├── requirements.txt
@@ -48,8 +48,7 @@ Abra o Jupyter e execute os notebooks de 1 a 5 sequencialmente. Cada notebook sa
 jupyter notebook
 ```
 
-> **Instâncias DIMACS (opcional):** coloque arquivos `.col` em `data/dimacs/` antes de rodar o notebook 1.  
-> Download: https://mat.tepper.cmu.edu/COLOR/instances.html
+> **Instâncias DIMACS:** os arquivos `.col` estão versionados em `data/dimacs/` e são carregados automaticamente pelo notebook 1.
 
 ## Dependências principais
 

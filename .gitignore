@@ -26,9 +26,9 @@ data/processed/
 figures/
 template-latex/figuras/
 
-# Instâncias DIMACS (arquivos grandes)
-data/dimacs/
-
 # OS
 .DS_Store
 Thumbs.db
+
+presentation.tex
+text.tex
